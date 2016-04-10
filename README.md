@@ -102,16 +102,18 @@ Here are the commands you can use to actually do something useful with this proj
 
 - **Install deps:**: `npm install`
 - **Compile:** `make -j4`
+
   > The -j4 flag tells Make to compile at most 4 files at once. Adjust as you see fit.
 - **Run tests:** `make test`
 - **Lint code:**: `make lint`
 - **Generate docs:**: `make clean docs`
 - **Generate code coverage reports:** `make distclean && make -j4 coverage MAPS=true`
+
   > Once you are done with the reports, make sure you re-compile your project again so that the files contain both inline and external source maps in order for everything to work.
 - **Clean up generated files:**: `make clean`
 - **Clean up generated code:**: `make distclean`
 
-## Final words
+## Final thoughts
 
 I was quite surprised to get this far, considering that async functions are quite new. Most of the stuff really works and only some issues remain.
 
