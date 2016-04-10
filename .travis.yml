@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+node_js:
+- '5.10'
+cache:
+  directories:
+  - node_modules
+install:
+- make -j4
+script:
+- make lint
+- make test
+- make docs
+- make distclean && make -j4 coverage MAPS=true
