@@ -32,7 +32,7 @@ test: out
 
 # Generate coverage reports
 coverage: out
-	$(bindir)nyc --reporter=lcov --reporter=html $(bindir)mocha $(testflags)
+	$(bindir)nyc --reporter=lcov --reporter=html --reporter=text $(bindir)mocha $(testflags)
 
 # Generate code docs
 docs: out
