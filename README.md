@@ -20,13 +20,13 @@ The following requirements have been set forth before the project started. Statu
 
 ## Components used
 
-Compiler: [Babel](https://babeljs.io)
-Build tool: [GNU Make](https://www.gnu.org/software/make)
-Debugger: [Node-Inspector](https://github.com/node-inspector/node-inspector)
-Linter: [ESLint](http://eslint.org)
-Test runner: [Mocha](https://mochajs.org)
-Code coverage reporter: [nyc](https://github.com/bcoe/nyc)
-API docs generator: [ESDoc](https://esdoc.org)
+- Compiler: [Babel](https://babeljs.io)
+- Build tool: [GNU Make](https://www.gnu.org/software/make)
+- Debugger: [Node-Inspector](https://github.com/node-inspector/node-inspector)
+- Linter: [ESLint](http://eslint.org)
+- Test runner: [Mocha](https://mochajs.org)
+- Code coverage reporter: [nyc](https://github.com/bcoe/nyc)
+- API docs generator: [ESDoc](https://esdoc.org)
 
 ## Approach
 
