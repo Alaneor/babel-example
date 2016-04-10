@@ -1,0 +1,12 @@
+{
+  "source": "src/lib",
+  "destination": "docs",
+  "plugins": [
+    { "name": "esdoc-es7-plugin" },
+    { "name": "esdoc-node-plugin", "option": {
+        "base": ".",
+        "devDependencies": false
+      }
+    }
+  ]
+}

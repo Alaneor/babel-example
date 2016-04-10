@@ -1,0 +1,52 @@
+{
+  "name": "babel-example",
+  "description": "Babel-based project example",
+  "version": "1.0.0",
+  "author": {
+    "name": "Robert Rossmann",
+    "email": "rr.rossmann@me.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Alaneor/babel-example/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+    "babel-runtime": "^6.6.1",
+    "request": "^2.70.0",
+    "source-map-support": "^0.4.0"
+  },
+  "devDependencies": {
+    "@strv/eslint-config-javascript": "^3.2.1",
+    "babel-cli": "^6.7.5",
+    "babel-eslint": "^6.0.2",
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
+    "babel-plugin-transform-es2015-parameters": "^6.7.0",
+    "babel-plugin-transform-runtime": "^6.7.5",
+    "chai": "^3.5.0",
+    "esdoc": "^0.4.6",
+    "esdoc-es7-plugin": "0.0.3",
+    "esdoc-node-plugin": "^0.2.1",
+    "eslint": "^2.7.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "mocha": "^2.4.5",
+    "nyc": "^6.2.1"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "homepage": "https://github.com/Alaneor/babel-example",
+  "keywords": [],
+  "license": "MIT",
+  "nyc": {
+    "exclude": [
+      "out/test"
+    ]
+  },
+  "private": true,
+  "main": ".",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Alaneor/babel-example.git"
+  }
+}
