@@ -1,4 +1,9 @@
+[travis-badge]: https://travis-ci.org/Alaneor/babel-example.svg
+[travis-url]: https://travis-ci.org/Alaneor/babel-example
+
 # Example ES 2016 Project
+
+[![Build Status][travis-badge]][travis-url]
 
 > Example project that uses Babel to compile ES 2016 source code down to ES 2015, Node.js-compatible code.
 
